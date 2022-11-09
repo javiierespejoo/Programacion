@@ -1,0 +1,15 @@
+package ejerciciosTema4;
+
+import java.util.Scanner;
+
+public class Ejercicio7 {
+
+	public static void main(String[] args) {
+		Scanner teclado=new Scanner (System.in);
+		
+		String frase;
+		
+		System.out.println("Dime una frase");
+	}//main
+
+}//class

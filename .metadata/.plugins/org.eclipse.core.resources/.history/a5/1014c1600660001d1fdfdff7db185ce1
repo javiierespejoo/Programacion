@@ -1,0 +1,31 @@
+package ejerciciosTema4;
+
+import java.util.Scanner;
+
+public class Ejercicio12 {
+
+	public static void main(String[] args) {
+		Scanner teclado=new Scanner (System.in);
+
+		String frase,aux="";
+		boolean larga=true;
+		
+		do {
+			System.out.println("Dime una frase (maximo 20 caracteres)");
+			frase=teclado.nextLine();
+			if (frase.length()<20) {
+				larga=false;
+			}//if_do-while
+		}//do-while
+		while (larga==true);
+		
+		for (int i=-frase.length(); i<frase.length(); i++) {
+			for (int j=0; j<frase.length(); j++) {
+				aux+=frase.charAt(i);
+			}//for_for
+			System.out.println(aux);
+		}//for
+		
+	}//main
+
+}//class
