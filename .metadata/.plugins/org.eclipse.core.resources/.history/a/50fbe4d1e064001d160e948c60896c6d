@@ -1,0 +1,17 @@
+package ejerciciosTema4;
+
+import java.util.Scanner;
+
+public class Ejercicio2_3 {
+
+	public static void main(String[] args) {
+		Scanner teclado=new Scanner(System.in);
+		
+		String frase, aux;
+		System.out.println("Hl");
+		frase=teclado.nextLine();
+		aux=frase.substring(frase.length(),0);
+		
+	}//main
+
+}//class

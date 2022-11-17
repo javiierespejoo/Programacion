@@ -1,0 +1,20 @@
+package ejerciciosTema4;
+
+import java.util.Scanner;
+
+public class Ejercicio2_3 {
+
+	public static void main(String[] args) {
+		Scanner teclado=new Scanner(System.in);
+		
+		String frase,aux="";
+		
+		System.out.println("kfg");
+		frase=teclado.nextLine();
+		for (int i=frase.length()-1; i>-1; i--) {
+			aux+=frase.charAt(i);
+		}//for
+		System.out.println(aux);
+	}//main
+
+}//class
