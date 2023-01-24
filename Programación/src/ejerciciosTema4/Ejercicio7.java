@@ -8,7 +8,7 @@ public class Ejercicio7 {
 		Scanner teclado=new Scanner (System.in);
 		
 		String frase;
-		int M=0,m=0,n=0;
+		int M=0,m=0,n=0, s=0;
 		
 		System.out.println("Dime una frase (maximo 80 caracteres)");
 		frase=teclado.nextLine();
@@ -33,6 +33,9 @@ public class Ejercicio7 {
 					if (frase.charAt(i)>=48 && frase.charAt(i)<=57) {
 						n++;
 					}//if_else
+					else {
+						s++;
+					}//else_else
 				}//else_for
 			}//for_if
 			System.out.println("La frase que me has dicho contiene: ");

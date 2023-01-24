@@ -18,7 +18,8 @@ public class Ejercicio3 {
 			frase=teclado.nextLine();
 			System.out.println("Dime cual es la palabra que quieres buscar");
 			palabra=teclado.nextLine();
-			System.out.println(frase.indexOf(palabra)+1);
+			palabra=palabra.toUpperCase();
+			System.out.println(frase.toUpperCase().indexOf(palabra)+1);
 		}//if
 		else {
 			System.out.println(frase.indexOf(palabra)+1);

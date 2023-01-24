@@ -22,7 +22,7 @@ public class Ejercicio1 {
 				num2=teclado.nextInt();
 			}//if1
 			else if (num1==num2) {//if2
-				
+				System.out.println("Los numeros introducidos son iguales");
 			}//if2
 			else {
 				contador=num1+1;

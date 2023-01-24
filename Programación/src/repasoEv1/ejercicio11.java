@@ -16,8 +16,9 @@ public class ejercicio11 {
 		personas=teclado.nextInt();
 		
 		System.out.println("¿Tienes tarjeta de CinePas?");
-		System.out.println("2. No");
 		System.out.println("1. Si");
+		System.out.println("2. No");
+		
 		Cinepas=teclado.nextInt();
 		if (Cinepas==1) {
 			cinePas=true;

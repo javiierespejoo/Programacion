@@ -18,7 +18,7 @@ public class Ejercicio2 {
 		}//if
 		else {
 			System.out.println("La tabla de multiplicar del "+num+" es: ");
-			contador=0;
+			contador=-1;
 			while (contador<10){
 				contador++;
 				producto=num*contador;

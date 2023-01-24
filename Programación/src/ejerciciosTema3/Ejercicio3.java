@@ -12,7 +12,7 @@ public class Ejercicio3 {
 		System.out.println("Dime un numero y te dire todos sus divisores: ");
 		num=teclado.nextInt();
 		
-		while (contador<num-1) {
+		while (contador<num/2) {
 			contador++;
 			resto=num%contador;
 			if (resto==0) {

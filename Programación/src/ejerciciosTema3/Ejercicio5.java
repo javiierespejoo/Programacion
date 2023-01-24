@@ -19,7 +19,7 @@ public class Ejercicio5 {
 			suma=suma+num;
 			contador++;
 		}//while
-		System.out.println("La suma de los "+contador+" numeros introducidos da como resultado: "+suma);
+		System.out.println("La suma de los "+(contador-1)+" numeros introducidos da como resultado: "+suma);
 	}//main
 
 }//class
