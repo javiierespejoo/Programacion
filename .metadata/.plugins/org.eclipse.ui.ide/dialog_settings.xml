@@ -20,6 +20,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\espej\OneDrive\Escritorio\Trabajos DAM1\Entornos de Desarrollo\recursos_practica_junit"/>
 			<item value="C:\Users\espej\Downloads\recursos_practica_debug"/>
 			<item value="C:\Users\espej\eclipse-workspace\calculadora"/>
 			<item value="C:\Users\espej\eclipse-workspace\pruebaseclipse"/>
